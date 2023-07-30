@@ -34,3 +34,5 @@ db.word.insertMany([
 			date: Date()
 		},
 	])
+
+db.word.updateOne({name: "grasp"}, {$set: {example: "It took me a while to grasp the concept of mechanics."}})
