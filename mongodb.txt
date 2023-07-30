@@ -1,5 +1,6 @@
 show dbs;
 use english
+db.createCollection("word")
 db.word.find()
 db.word.insertOne({
 		name: "grasp",
