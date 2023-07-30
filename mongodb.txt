@@ -34,3 +34,6 @@ db.word.insertMany([
 			date: Date()
 		},
 	])
+	
+db.word.find({name: "grasp"}, {example: 1, synonym: 1}) #embora estejam ligadas para trazer só as colunas example e synonym, as coluna _id virá junto.
+							para não trazer a coluna _id teria que fazer _id: 0
