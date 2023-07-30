@@ -1,0 +1,35 @@
+show dbs;
+use english
+db.word.find()
+db.word.insertOne({
+		name: "grasp",
+		example: "It took me a grasp the concept to phisics",
+		category: "verb",
+		synonym: ["understand", "comprise"],
+		date: Date()
+	})
+
+db.word.insertMany([
+		{
+			name: "grasp",
+			example: "It took me a grasp the concept to phisics",
+			category: "verb",
+			synonym: ["understand", "comprise"],
+			date: Date()
+		},
+	
+		{
+			name: "grasp",
+			example: "It took me a grasp the concept to phisics",
+			category: "verb",
+			synonym: ["understand", "comprise"],
+			date: Date()
+		},
+		{
+			name: "grasp",
+			example: "It took me a grasp the concept to phisics",
+			category: "verb",
+			synonym: ["understand", "comprise"],
+			date: Date()
+		},
+	])
