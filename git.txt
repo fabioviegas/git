@@ -1,0 +1,16 @@
+Para ver o que está setado como global no git: git config --list
+
+Para ver o statusde um arquivo, pode-se utilizar git status --short
+
+	?? - Untracked files
+	A - Files added to stage
+	M - Modified files
+	D - Deleted files
+	
+É possível commitar um arquivo sem passar pelo Stage (o que não é recomendado): git commit -a -m "Commitando direto".
+
+git log
+
+git chechout -b anotacoes
+git branch -d <nome_branch> #deleta a branch
+
