@@ -20,6 +20,6 @@ git push --set-uptream orgin master - faz um push do master local para o origin
 Para fazer o git autenticar local:
 a) sudo apt install gh
 b) gh auth login - este comando irá pedir algumas informações como abrir o browser e irá escrever no prompt um código para colar no navegador.
-Os comandos a) e b) acima foram necessários para o comando git push --set-upstream origin master..
+Os comandos a) e b) acima foram necessários para o comando git push --set-upstream origin master.
 
 
