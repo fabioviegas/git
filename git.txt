@@ -22,4 +22,10 @@ a) sudo apt install gh
 b) gh auth login - este comando irá pedir algumas informações como abrir o browser e irá escrever no prompt um código para colar no navegador.
 Os comandos a) e b) acima foram necessários para o comando git push --set-upstream origin master.
 
+pull é a combinação de 2 diferentes comandos:
+	- fetch
+	- merge
+fetch - vê se tem alterações, mas não traz.
+git fetch origin
+git diff origin/master
 
