@@ -29,3 +29,5 @@ fetch - vê se tem alterações, mas não traz.
 git fetch origin
 git diff origin/master
 
+git push origin - para mandar para o github
+
