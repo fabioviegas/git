@@ -31,3 +31,8 @@ git diff origin/master
 
 git push origin - para mandar para o github
 
+git commit -a -m   vai dar erro porque o parâmetro -m exige uma mensagem.
+git commit -a      vai abrir o vim e se não tiver edição o commit será abortado.
+
+Se na branch que estou há alterações para commit o git não deixará trocar de branch sem antes commitar as alterações ou colocar em stash.
+git stash: arquiva as alterações para que se possa trabalhar em outra coisa e depois voltar para concluir o que estava fazendo.
