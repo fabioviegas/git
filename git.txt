@@ -36,3 +36,7 @@ git commit -a      vai abrir o vim e se não tiver edição o commit será abort
 
 Se na branch que estou há alterações para commit o git não deixará trocar de branch sem antes commitar as alterações ou colocar em stash.
 git stash: arquiva as alterações para que se possa trabalhar em outra coisa e depois voltar para concluir o que estava fazendo.
+git stash
+	Saved working directory and index state WIP on master: a2dce5c push
+git status
+	
